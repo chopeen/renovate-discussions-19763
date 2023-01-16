@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "foo"
+version = "0.0.1"
+description = "Repro repository for https://github.com/renovatebot/renovate/discussions/19763"
+authors = [ "Marek Grzenkowicz <chopeen@gmail.com>" ]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+cloudpathlib = {version = "0.12.1", extras = ["s3"]}
+sagemaker = "2.117.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
