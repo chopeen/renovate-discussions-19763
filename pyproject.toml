@@ -6,7 +6,7 @@ authors = [ "Marek Grzenkowicz <chopeen@gmail.com>" ]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
-cloudpathlib = {version = "0.12.1", extras = ["s3"]}
+cloudpathlib = {version = "0.13.0", extras = ["s3"]}
 pandas = "1.5.2"
 s3fs = "2022.11.0"  # optional dependency for pandas
 sagemaker = "2.117.0"

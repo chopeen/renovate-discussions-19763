@@ -249,14 +249,14 @@ unicode-backport = ["unicodedata2"]
 
 [[package]]
 name = "cloudpathlib"
-version = "0.12.1"
+version = "0.13.0"
 description = "pathlib-style classes for cloud storage services"
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "cloudpathlib-0.12.1-py3-none-any.whl", hash = "sha256:5b75a53b4a0ee25d5e740ace8769aa67ab481555f4a9f7590cdfccc7ec791636"},
-    {file = "cloudpathlib-0.12.1.tar.gz", hash = "sha256:31176c459235794816ac9276843b991667e912cb9fef23d9ce3b7c8f455a2245"},
+    {file = "cloudpathlib-0.13.0-py3-none-any.whl", hash = "sha256:817ae83f1b9630b9d914882f6249626680ccefcb4e45f2d27a195815f1099086"},
+    {file = "cloudpathlib-0.13.0.tar.gz", hash = "sha256:7135f975b28917348f3ca8feb85f83277c89ac9acf331d1b87d945ecdbe2dffb"},
 ]
 
 [package.dependencies]
@@ -1122,4 +1122,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<4.0"
-content-hash = "b309f4c22d81f0d2c1c58c43698416a8504ef68aa23d9aab8a1216e1098a4bdf"
+content-hash = "7ca89f2e448dcbb45d803c9ef6d14079be89ae9ba0232c9ed8afe1aa32988b79"
