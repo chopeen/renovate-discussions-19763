@@ -8,7 +8,7 @@ authors = [ "Marek Grzenkowicz <chopeen@gmail.com>" ]
 python = ">=3.8,<4.0"
 cloudpathlib = {version = "0.12.1", extras = ["s3"]}
 pandas = "1.5.2"
-s3fs = "2022.11.0"  # optional dependency for pandas
+s3fs = "2023.3.0"  # optional dependency for pandas
 sagemaker = "2.117.0"
 
 [build-system]
